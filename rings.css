@@ -1,0 +1,195 @@
+ .heading {
+	text-align:center;
+
+ }
+ .line {
+display: inline;
+ }
+ .search{
+
+ text-align:right;
+	 padding:10px 20px ;
+	 margin:20px auto;
+	 background: #fff;
+	 height:30px;
+	 border-radius: 30px;
+	 display:flex;
+	 align-items: center;
+	 transition:0.8s;
+	 box-shadow: 0 0 25px 0 rgba(0,0,0,0.1);
+	
+ }
+ .search:hover input{
+	 width:300px;
+	 cursor: pointer;
+ }
+
+ .search input{
+	 background: transparent;
+	 border:none;
+	 outline: none;
+	 width: 0 px;
+	 font-weight: 500;
+	 font-size: 16px;
+	 transition: 0.8s;
+ }
+ .search a li .fa{
+color:#aa00ff;
+ }
+ .table{
+	 text-align:center;
+	 padding:10px;
+	
+ }
+ .table a:hover{
+	font-sixe:50px;
+ }
+ a{
+   text-decoration:none;
+   font-weight:bold;
+   }
+
+a:hover{
+  color:red;
+  transform:scale(2.1);
+  transition: 0.2s;
+}
+
+a:active{
+   color:green;
+}
+
+ 
+ .logo{
+	 text-align:left;
+	 padding:10px;
+	 
+ }
+ 
+ 
+ .border{
+	 border-spacing:5px;
+ }
+ 
+ 
+ .subhead {
+	 text-align:center;
+	
+ }
+ 
+ 
+ 
+ 
+.middle {
+	text-align:center;
+	font-family: 'Caveat', cursive;
+	font-size:150%;
+
+	
+}
+
+
+.subcribeform {
+	text-align:center;
+}
+
+
+.header {
+	text-align:center;
+	background-color:powderblue;
+	
+	
+}
+
+
+.foot {
+	text-align:center;
+	background-color:powderblue;
+	
+}
+.imgstable{
+	 border-spacing:5px;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+ .pics{
+
+	 padding:10px;
+ }
+ .par1{
+	 text-align:center;
+	 	font-size:150%;
+		font-family: 'Caveat', cursive;
+	 
+	 
+ }
+ 
+ .par{
+	 text-align:center;
+ }
+ 
+ .center {
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 width: 70%;
+ }
+  .centerr {
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 width: 30%;
+ 
+  }
+  .button {
+	   background-color:gray;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  
+  }
+  
+  nav{
+	  float:center;
+	  text-transform:uppercase;
+	  cursor:pointer;
+	  
+  }
+ address{
+	 
+	 text-align:center;
+ }
+ 
+ .form{
+	 margin:200px;
+	 text-align:center;
+	   border: 2px solid #E8E8E8;
+	   border-width:5px;
+  border-radius: 12px;
+  background-color:#E8E8E8;
+ }
+ 
+  .contact {
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 width: 10%;
+  }
+  .main{
+	  background-color:aliceblue;
+  }
+  .color-pinterest{
+	color:red;
+}
+.color-instagram{
+	color:black;
+}
+.color-twitter{
+	color:cornflowerBlue;
+}
+	
+.color-facebook{
+	color:darkBlue;
+}
