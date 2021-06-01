@@ -42,7 +42,7 @@ color:#aa00ff;
 	
  }
  .table a:hover{
-	font-sixe:50px;
+	font-size:20px;
  }
  a{
    text-decoration:none;
@@ -51,8 +51,7 @@ color:#aa00ff;
 
 a:hover{
   color:red;
-  transform:scale(2.1);
-  transition: 0.2s;
+  
 }
 
 a:active{
