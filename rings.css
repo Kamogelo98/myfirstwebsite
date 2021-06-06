@@ -33,7 +33,7 @@
 color:#aa00ff;
  }
  .table{
-	 text-align:center;
+	 text-align:left;
 	 padding:10px;
 	
  }
@@ -91,7 +91,8 @@ a:active{
 
 .header {
 	text-align:center;
-	background-color:powderblue;
+	background-color:#d7eff0;
+
 	
 	
 }
@@ -176,15 +177,19 @@ a:active{
 	  background-color:aliceblue;
   }
   .color-pinterest{
-	color:red;
+	color:black;
+	font-size:50px;
 }
 .color-instagram{
 	color:black;
+	font-size: 20px;
 }
 .color-twitter{
-	color:cornflowerBlue;
+	color:black;
+	font-size: 20px;
 }
 	
 .color-facebook{
-	color:darkBlue;
+	color:black;
+	font-size: 20px;
 }
