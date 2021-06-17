@@ -14,24 +14,19 @@
     <body>
 	<header class="header">
 	<!-- Menu Section-->
-
-<nav>
-<table class="border">
-    <tr>
-	<td class="logo"><img src="images/1.png" alt="logo"  width="40%" title="logo"></td>
-	 <td class="table"><a href="index.html">Home</a></td>
-     <td class="table"><a href="products.html">Products</a></td>
-     <td class="table"><a href="aboutUs.html">About Us</a></td>
-     <td class="table"><a href="contactUs.html">Contact us</a></td>
-     <td class="search"><input type="text" placeholder="search"><a href=""><li class="fa fa-search"></li></a></td>
-    </tr>
-</table>
-</nav>
-
-<br>
-<!-- Banner Image-->
-<a href="index.html">
-        <img src="images/ban.jpg" alt="sappie" width="100%"  title="Sapphire Jewels" /></a>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><i class="fa fa-bars"></i></label>
+    <label class="logo">SapphireJewels</label>
+    <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
+    <li><a href="products.html">Gallery</a></li>
+    <li><a href="contactUs.html">contact Us</a></li>
+    <input type="text" placeholder="search"><a href=""><li class="fa fa-search"></li></a>
+    </ul>
+    </nav>
+    <br>
 	</header>
  <main class="main">
  
@@ -61,32 +56,23 @@
  <br>
  <form action=" " class="form">
  <br>
- <label for="consent">
-   <input id="consent" type="checkbox" name="consent-form">I give Sapphire Jewels permisssion to collect my details through the form below</label>
-<br>
-<br>
- <input type="text" placeholder="name">
- <br>
- <br>
+ <div class="form-group">
+   <label>Name :</label>
+   <input type="text" name="name">
+ </div>
+ <div class="form-group">
+  <label>Email :</label>
+  <input type="email" name="e-mail">
+</div>
+<div class="form-group">
+  <label>Phone :</label>
+  <input type="tel" name="phone-number">
+</div>
+ <div class="form-group">
+   <label>Message:</label>
+   <textarea name="message"></textarea>
+ </div>
  
- <input type="text" placeholder="surname">
- 
- <br>
- <br>
- <input type="email" placeholder="email">
- <br>
- 
- <br>
- <input type="tel" placeholder="phone number">
- <br>
- <br>
- <button class="button" type="submit">SUBMIT FORM</button>
- <br>
- <br>
- <br>
- <p> Should we email or call :</p>
- <label for="call"><input id="call" type="radio" name="call-email">Call</label>
- <label for="email"><input id="email" type="radio" name="call-email">Email</label><br>
 </form>
 <br>
 <br>
