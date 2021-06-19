@@ -1,35 +1,27 @@
+
+.mains{
+	float:left;
+	width:55%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+.sidebar{
+	float:right;
+	width:45%;
+	padding:0px;
+	box-sizing:border-box;
+}
+	.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+
+}
 .heading {
 	text-align:center;
 }
- .container{
-
-	height:30px;
-	border-radius:30px;
-	display:flex;
-	align-items:flex-end;
-	transition: 0.8s;
-	box-shadow: 0 0 25px 0 rgb(0,0,0,0.4);
- }
- .container:hover input{
-	 width:50px;
-	 cursor: pointer;
- }
-
- .container input{
-	 background: transparent;
-	 border:none;
-	 outline: none;
-	 width: 0 px;
-	 font-weight:bold;
-	 font-size: 16px;
-	 transition: 0.8s;
- }
- .container a li .fa{
-color:powderblue;
- }
-
  
- 
+
  .subhead {
 	 text-align:center;
 
@@ -49,7 +41,7 @@ color:powderblue;
 
 .header {
 	text-align:center;
-	background-color:powderblue;	
+	background-color:white;	
 }
 
 
@@ -283,11 +275,32 @@ a:hover{
 	line-height:1.6 em;
 	margin-left:50px;
 }
-.text-wrapper  h4 a{
+.text-wrapper  h4 a {
 	text-align: left;
 	color:white;
 	border: 1px solid white;
 	border-radius: 10px;
 	padding: 15px;
 }
-	
+
+.boxContainer {
+margin:auto;
+border:2px solid powderblue;
+padding:0px 10px;
+border-radius: 50px;
+}
+.search{
+	border:none;
+	height:100%;
+	width:100%;
+	padding:0px 5px;
+	font-size:18px;
+	color: powderblue;
+	font-weight: bold;
+}
+.material-icons{
+	font-size: 26;
+	color: powderblue;
+}
+
+
