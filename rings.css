@@ -1,3 +1,29 @@
+.container-img {
+	position: relative;
+	text-align: center;
+	color: white;
+  }
+  
+  .bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+  }
+  
+
+form.example input[type=text] {
+	border:none;
+	color: powderblue;
+	
+	}
+
+.sub {
+	color: powderblue;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	border-top: 1px solid powderblue;
+}
 .main-contact{
 	background-image: url("images/contact.jpg");
  
@@ -110,11 +136,11 @@
  }
  
  .form{
+	 padding:30px;
 	 margin:100px;
-	 border: 2px solid #E8E8E8;
+	 border: 1px solid rgba(240, 240,240,0.9);
 	 border-width:20px;
-     border-radius: 12px;
-     background-color:#E8E8E8;
+     background-color:rgba(240, 240,240,0.9);
  }
 
  .form-group{
@@ -314,5 +340,6 @@ border-radius: 50px;
 	font-size: 26;
 	color: powderblue;
 }
+
 
 
