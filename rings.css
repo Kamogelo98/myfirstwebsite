@@ -1,3 +1,22 @@
+.text{
+	font-weight: bolder;
+	color:white;
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-40%,-50%);
+}
+.btn{
+	font-weight:bolder;
+	color:white;
+	
+	
+
+}
+.btn:hover{
+color: powderblue;
+font-size: 30px;
+}
 .container-img {
 	position: relative;
 	text-align: center;
@@ -343,3 +362,4 @@ border-radius: 50px;
 
 
 
+}
