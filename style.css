@@ -1,3 +1,31 @@
+#back-to-top-btn{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 26px;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	color: #0082e6;
+	cursor: pointer;
+	outline: none;
+	border: 3px solid #0082e6;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	transition-property: background-color,color;
+
+
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus{
+background-color: #0082e6;
+color:#fff;
+}
+
+
+
+
 .text{
 	font-weight: bolder;
 	color:white;
