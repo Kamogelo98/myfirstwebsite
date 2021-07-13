@@ -21,26 +21,11 @@ function backToTop(){
 
 
 function validateform(){
-  let userName= document.getElementById("name");
-  var userEmail= document.getElementById("email");
-  var userNum= document.getElementById("number");
-
-
-  if(userName == "" || userEmail == "" || userNum == ""){
-    alert("Please fill out the form!");
-    return false;
-  }else{
-  alert("You have successfully submmited your form!");
-  return true;
-  }
+ alert("You have successfully submmited your form!");
 }
 
 
 function validatesub(){
-  let userEmail=document.getElementsByClassName("email");
-  if(userEmail == ""){
-    alert("Please  enter your email to subscribe");
-  }else{
+
     alert("You have successfully subscribed for our newsletter!");
-  }
 }

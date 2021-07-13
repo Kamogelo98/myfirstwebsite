@@ -62,15 +62,15 @@
  <br>
  <div class="form-group">
    <label>Name :</label>
-   <input type="text" name="name" id="name">
+   <input type="text" name="name"  id="name" required>
  </div>
  <div class="form-group">
   <label>Email :</label>
-  <input type="email" name="e-mail" id="email">
+  <input type="email" name="e-mail" id="email" required>
 </div>
 <div class="form-group">
   <label>Phone :</label>
-  <input type="tel" name="phone-number"  id="number">
+  <input type="tel" name="phone-number"  id="number" required>
 </div>
  <div class="form-group">
    <label>Message:</label>
@@ -89,10 +89,12 @@
 <br>
 <h3 class="subheading">SUBSCRIBE TO THE INNER CIRCLE</h3>
 <p class="par">Promotions,New Products you  could customize to make your own.Directly to your inbox</p>
-<form class="subcribeform">
-<input type="email" placeholder="Enter your email">
-<button class="button" type="submit">SUBSCRIBE</button>
-</form>
+<!--Subscribe form-->
+<form class="subcribeform" action="#" class="form"  method = "POST" onsubmit="return validatesub();">
+  <input type="email" placeholder="Enter your email" required>
+  <button class="button" type="submit">SUBSCRIBE</button>
+  </form>
+
 <br>
 </main>
 <footer class="foot">

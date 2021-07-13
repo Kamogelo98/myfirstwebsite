@@ -1,3 +1,7 @@
+.table-home{
+	margin-left: 200px;
+
+}
 .vid{
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -113,7 +117,7 @@ form.example input[type=text] {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-font-weight: bold;
+
 
 }
 .middle {
@@ -307,6 +311,13 @@ a:hover{
 #check{
 	display:none;
 }
+@media(max-width:375px){
+	main{
+	display : block;
+	}
+}
+
+
 
 @media(max-width:952px){
 	label.logo{
