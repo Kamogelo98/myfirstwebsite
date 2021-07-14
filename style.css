@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .table-home{
 	margin-left: 200px;
 
@@ -128,7 +131,15 @@ form.example input[type=text] {
 
 
 .subcribeform {
+	margin-left: 350px;
 	text-align:center;
+	width: 40%;
+	padding:0.5rem 1rem;
+	outline: none;
+	border: 2px solid rgb(59, 156, 168);
+	font-size : 1.1 rem;
+
+
 }
 
 
@@ -152,6 +163,9 @@ form.example input[type=text] {
  .pics{
 
 	 padding:10px;
+ }
+ .pics:hover{
+	 transform: scale(1.3);
  }
  .par1{
 	 text-align:center;
@@ -180,6 +194,7 @@ form.example input[type=text] {
   }
   .button {
 	   background-color:gray;
+		 padding:0.5rem 1rem;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -187,6 +202,10 @@ form.example input[type=text] {
   cursor: pointer;
   
   }
+	.button:hover , .button:focus{
+		background-color: rgb(59, 156, 168);
+		color: white;
+	}
   
   nav{
 	  float:center;
@@ -262,8 +281,15 @@ nav{
 	height:100px;
 	width:100%;
 }
-
 label.logo{
+	color:rgb(59, 156, 168);
+	font-size:35px;
+	line-height:80px;
+	padding: 20px 100px;
+	font-weight:bold;
+	float:left;
+}
+label.logo a{
 	color:rgb(59, 156, 168);
 	font-size:35px;
 	line-height:80px;
@@ -294,7 +320,7 @@ a{
 	transition:uppercase;
 }
 
-a:hover{
+a:hover a:active{
 	background:#d7eff0;
 	transition:0.5s;
 }
@@ -337,7 +363,7 @@ a:hover{
 		position:fixed;
 		width:100%;
 		height:100vh;
-		background:powderblue;
+		background:black;
 		top:80px;
 		left:-100%;
 		text-align:center;
@@ -353,10 +379,14 @@ a:hover{
 	}
 	a:hover,a.active{
 		background:none;
-		color:#0082e6;
+		color:whitesmoke;
 }
 #check:checked ~ ul{
 	left:0;
+}
+img{
+	display: block;
+	max-width: 100%;
 }
 
 .text-wrapper{
