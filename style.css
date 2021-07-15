@@ -261,20 +261,20 @@ form.example input[type=text] {
 
   .color-pinterest{
 	color:black;
-	font-size:100px;
+	font-weight: bold;
 }
 .color-instagram{
 	color:black;
-	font-size: 100px;
+	font-weight: bold;
 }
 .color-twitter{
 	color:black;
-	font-size: 100px;
+	font-weight: bold;
 }
 	
 .color-facebook{
 	color:black;
-	font-size: 100px;
+	font-weight: bold;
 }
 nav{
 	background:white;
