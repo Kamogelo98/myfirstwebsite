@@ -320,7 +320,7 @@ a{
 	transition:uppercase;
 }
 
-a:hover a:active{
+a:hover{
 	background:#d7eff0;
 	transition:0.5s;
 }
